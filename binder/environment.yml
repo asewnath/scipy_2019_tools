@@ -5,14 +5,20 @@ dependencies:
   - python=3.7
   - pip
   - xarray
+  - bokeh
+  - cartopy
   - dask
   - distributed
+  - dill
   - dask-kubernetes
   - gcsfs
+  - geopandas
   - intake::intake-xarray
   - zarr
+  - nbconvert
   - matplotlib
   - ipympl
+  - ipython
   - numcodecs
   - python-blosc
   - lz4
@@ -30,6 +36,23 @@ dependencies:
   - imageio-ffmpeg
   - rasterio
   - geoviews
+  - networkx
+  - numba
+  - palettable
+  - pysal
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - xlsxwriter
   - pip:
     - kubernetes
     - graphviz
+    - cenpy==1.0.0rc2
+    - contextily
+    - rasterstats
+    - libpysal
+    - geopy
+    - mplleaflet
+    - mapclassify
+    - esda
